@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Διαχείριση XML συλλογής με χρήση JS AJAX</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+	 <!-- syndesi me css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body style="background-color: #d1cdcb; padding-bottom: 60px;">
+    <h2 style="text-align: center;">Υπολογιστές του Ελληνικού Μουσείου Πληροφορικής</h2>
+<div style="border-bottom: 5px solid black; margin-bottom: 20px;"></div>
+
+	<!-- ta koumpia emfanizontai edw stin arxi mono to 1 -->
+    <div id="button-container" style="text-align: center;">
+        <button id="koumpi1" type="button" class="button-1" onclick="loadDoc('1')">Φόρτωση Δεδομένων</button>
+        <button id="koumpi2" type="button" class="button-1" style="display:none;" onclick="loadDoc('2')">Ταξινόμηση Δεδομένων κατά Όνομα Δημιουργού</button>
+        <button id="koumpi3" type="button" class="button-1" style="display:none;" onclick="loadDoc('3')">Εμφάνιση Νεότερου</button>
+        <button id="koumpi4" type="button" class="button-1" style="display:none;" onclick="loadDoc('4')">Εμφάνιση Φθηνότερου</button>
+    </div>
+
+    <br>
+	<div style="border-bottom: 5px solid black; margin-bottom: 20px;"></div>
+    <br>
+    <table id="computers"></table> 	<!-- pinakas -->
+
+    <div style="position: fixed; bottom: 0; width: 100%; background-color: #d1cdcb; padding: 8px; text-align: center; font-size: 0.9em;">
+        Για τη δημιουργία του αρχείου XML <a href="ypologistes_mouseio_plhroforikhs.xml">ypologistes_mouseio_plhroforikhs.xml</a> χρησιμοποιήθηκε ως πηγή η σελίδα <a href="https://elmp.gr/" target="_blank">elmp.gr</a>
+    </div>
+
+	  <!-- syndesi me js -->
+    <script src="script/script.js"></script>
+</body>
+</html>

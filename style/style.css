@@ -1,0 +1,55 @@
+/* pinakas */
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+/* kelia */
+th, td {
+    padding: 3px;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+/* panw meros pinaka */
+th {
+    background-color: #d45719;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* koumpia */
+.button-1 {
+    background-color: #d45719;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px .8em;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+    margin: 4px;
+}
+
+/* koumpia otan hover */
+.button-1:hover,
+.button-1:focus {
+    background-color: #b06845;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* otan to patame */
+.button-1:active {
+    background-color: #b06845;
+    box-shadow: none;
+}

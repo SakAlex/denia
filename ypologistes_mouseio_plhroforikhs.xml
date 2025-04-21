@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+  <computer id="001">
+    <brand>Apple</brand>
+    <title>Macintosh 128K</title>
+    <price>800</price>
+    <year>1984</year>
+  </computer>
+  <computer id="002">
+    <brand>IBM</brand>
+    <title>IBM PC 5150</title>
+    <price>1500</price>
+    <year>1981</year>
+  </computer>
+  <computer id="003">
+    <brand>Commodore</brand>
+    <title>Commodore 64</title>
+    <price>350</price>
+    <year>1982</year>
+  </computer>
+  <computer id="004">
+    <brand>Apple</brand>
+    <title>Apple Macintosh 512ED</title>
+    <price>950</price>
+    <year>1986</year>
+  </computer>
+  <computer id="005">
+    <brand>IBM</brand>
+    <title>IBM Personal System/2 P70</title>
+    <price>1800</price>
+    <year>1989</year>
+  </computer>
+  <computer id="006">
+    <brand>Commodore</brand>
+    <title>Commodore 10-II</title>
+    <price>500</price>
+    <year>1984</year>
+  </computer>
+  <computer id="007">
+    <brand>Commodore</brand>
+    <title>Amiga 500</title>
+    <price>600</price>
+    <year>1987</year>
+  </computer>
+  <computer id="008">
+    <brand>Acorn</brand>
+    <title>Archimedes 3000</title>
+    <price>750</price>
+    <year>1989</year>
+  </computer>
+  <computer id="009">
+    <brand>Apple</brand>
+    <title>iMac G3</title>
+    <price>1100</price>
+    <year>1998</year>
+  </computer>
+  <computer id="010">
+    <brand>Sinclair</brand>
+    <title>ZX Spectrum</title>
+    <price>200</price>
+    <year>1982</year>
+  </computer>
+  <computer id="011">
+    <brand>Compaq</brand>
+    <title>Compaq Portable 386</title>
+    <price>1700</price>
+    <year>1987</year>
+  </computer>
+  <computer id="012">
+    <brand>NeXT</brand>
+    <title>NeXT Cube</title>
+    <price>3000</price>
+    <year>1988</year>
+  </computer>
+  <computer id="013">
+    <brand>Apple</brand>
+    <title>Twentieth Anniversary Macintosh</title>
+    <price>2500</price>
+    <year>1997</year>
+  </computer>
+  <computer id="014">
+    <brand>Osborne</brand>
+    <title>Osborne 1</title>
+    <price>800</price>
+    <year>1981</year>
+  </computer>
+  <computer id="015">
+    <brand>Toshiba</brand>
+    <title>T1200</title>
+    <price>1300</price>
+    <year>1987</year>
+  </computer>
+</collection>
